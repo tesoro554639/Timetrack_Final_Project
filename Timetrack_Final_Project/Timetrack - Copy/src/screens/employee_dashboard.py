@@ -173,9 +173,9 @@ class AttendanceDashboard(QWidget):
         checkin_card = QFrame()
         checkin_card.setStyleSheet("""
             QFrame {
-                background-color: white;
-                border-radius: 12px;
-                border: 2px solid #e2e8f0;
+                background-color: transparent;
+                border: none;
+                border-radius: 0;
             }
         """)
         checkin_layout = QHBoxLayout(checkin_card)
